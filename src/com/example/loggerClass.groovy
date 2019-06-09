@@ -1,11 +1,13 @@
-package com.example.LoggerClass
+package com.example
 
-def class LoggerClass{
+class LoggerClass implements Serializable{
+    def context
+
     def info(String message){
-        echo "INFO: $message"
+        context.echo "INFO: $message"
     }
 
     def debug(String message){
-        echo "DEBUG: $message"
+        context.echo "DEBUG: $message"
     }
 }
