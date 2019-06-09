@@ -1,4 +1,4 @@
-package com.example.LoggerClass
+package com.example
 
 class LoggerClass implements Serializable{
     def context
