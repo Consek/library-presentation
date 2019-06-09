@@ -1,4 +1,4 @@
 def call(Map config){
-    echo config.preMakeCommand
+    config.preMakeCommand()
     echo "make ${config.makeParam}"
 }

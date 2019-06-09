@@ -1,6 +1,6 @@
 package com.example
 
-def class loggerClass(){
+def class LoggerClass{
     def info(String message){
         echo "INFO: $message"
     }
