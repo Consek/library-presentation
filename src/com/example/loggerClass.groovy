@@ -1,4 +1,4 @@
-package com.example
+package com.example.LoggerClass
 
 def class LoggerClass{
     def info(String message){
